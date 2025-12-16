@@ -1,0 +1,376 @@
+.container {
+    width: 1340px;
+    margin:0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-header__brand img{
+    width: 70px;
+}
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation__item {
+    display:inline-block;
+    padding: 10px;
+}
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.main-navigation__item a {
+    text-decoration: none;
+    color: #05364d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size:12px;
+}
+
+.main-navigation__item a:hover{
+    color:#efbde8;
+}
+
+.main-navigation-first__item a{
+   color:#efbde8;
+}
+.main-div-section {
+    float: left;
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hey__item {
+    color: #4c2552;
+    font-size:16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.who__item {
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size:60px;
+    font-weight: 500;
+}
+.work__item {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.icon__items a{
+    display: inline-block;
+   text-decoration: none;
+   padding: 10px;
+   font-size: 20px;
+   font-weight: 400;
+   margin:30px 0;
+   color: rgb(3,169,244);
+}
+.button__item {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 50px;
+    width:200px;
+    border-radius: 5px;
+    border:none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.main-picture__item {
+    width: 50%;
+    float: left;
+    height: 594px;
+    width: 349px;
+    margin-top: 100px;
+    text-align: right;
+}
+.div-both {
+    clear: both;
+}
+.rating__items {
+    margin-top: 200px;
+}
+.rating__items p{
+  display: inline-block;
+  margin-right: 20px;
+  border: none;
+  background-color: #f3f3f3;
+  text-align: center;
+  color: #00bcd4;
+  font-size: 30px;
+  padding: 20px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.main-picture__item img {
+    text-align: right;
+}
+
+/* About me section  */
+.about-me__item {
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 10px;
+    float: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-me {
+    font-weight: 500;
+    color: rgb(136,136,136);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about-me__item h3 {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.about-me-text {
+     color: rgb(136,136,136);
+     letter-spacing: 2px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+}
+.about-button__item {
+    text-transform: uppercase;
+    border:none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    height: 50px;
+    width: 180px;
+    vertical-align: top;
+}
+.about-picture__item {
+    float: left;
+    width: 50%;
+}
+.about-picture__item img {
+    width: 500px;
+}
+/* /About me section */
+
+/* My services section */
+.services {
+    margin-top:150px;
+    
+}
+.service-p {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(136,136,136);
+}
+.service-h3 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.first-card {
+    text-align: center;
+    background-color: #f8faff;
+    width: 30%;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    float: left;
+    margin-right:30px;
+    height: 350px;
+}
+ .this-card {
+    color: rgb(136,136,136);
+ }
+.card-p2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top:40px;
+}
+.first-card:hover{
+    color: white;
+    background-color: blueviolet;
+}
+/* /My services section */
+
+/* Clients section */
+.client-image {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.clients {
+    margin-top:150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.client-paragraph {
+    font-weight: 500;
+    color: rgb(136,136,136);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.clients-h3 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top:10px;
+}
+.client-paragraph-text {
+    color: rgb(136,136,136);
+}
+.client-text {
+    float: left;
+    width:50%;
+}
+.fa-solid {
+    color:#ffd804;
+}
+.gray {
+    color: #aeb9be;
+}
+/* /Clients section */
+
+/* Portfolio section */
+.portfolio {
+    margin-top:100px;
+}
+.image__items {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.image-ul__items li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.image__item {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.image__item:hover {
+    color: blue;
+}
+/* Images */
+.images {
+    height: 1000px;
+}
+.left-images {
+    width: 50%;
+    float: left;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.left-images img {
+    width: 450px;
+}
+.right-images {
+    width: 50%;
+    float: left;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.right-image img {
+    width: 450px;
+}
+.right-second-images {
+    width: 100%;
+    text-align: center;
+}
+.right-second-images img {
+    width: 48%;
+    margin-right: 11px;
+}
+.end-image {
+    width: 100%;
+    height: 450px;
+}
+.middle-image {
+    height: 300px;
+    width: 100%;
+}
+/* /Images */
+/* /portfolio section */
+
+/* Blog section  */
+#blog {
+    margin-top: 200px;
+}
+.blog-div__items div {
+    width: 30%;
+    display: inline-block;
+}
+
+
+.blog-div__item div {
+    width: 100%;
+    display: block;
+    background-color: #f8faff; 
+}
+.blog-div__item img {
+    width: 100%;
+}
+
+.blog-div__items div {
+    margin-right: 25px;
+}
+.blog-div__item .link-tag {
+    text-decoration: none;
+    color:#05364d;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.learn__item {
+    text-decoration: none;
+     color:#05364d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.learn__item:hover {
+    color:rgb(179, 61, 81);
+}
+/* /Blog section */
+
+/* Footer section */
+.footer-logo__item {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+}
+.footer-logo__item img{
+    width:150px;
+}
+.footer-navigation {
+    text-align: center;
+}
+.footer-navigation__item {
+    color: #05364d;
+}
+.footer-icon__bar{
+    text-align: center;
+}
+.footer-icon__bar a {
+    display: inline-block;
+    font-size: 35px;
+    color: rgb(35, 35, 255);
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.footer-icon__bar a:hover {
+    color: white;
+    background-color:purple;
+}
+/* /Footer section */
