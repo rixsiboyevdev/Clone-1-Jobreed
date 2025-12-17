@@ -4,13 +4,15 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .main-header {
-    position:fixed;
-    top:0px;
+    z-index: 10;
+    top: 0;
+    position: fixed;
     background-color: white;
     width: 1340px;
     box-shadow:0 4px 10px rgba(0, 0, 0, 0.2);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+
 }
 .main-header__brand img{
     width: 70px;
@@ -252,15 +254,21 @@ span {
 .portfolio {
     margin-top:100px;
 }
-.image__items {
+.image__items li{
+    padding-left: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+}
+.image-ul__items {
+    list-style: none;
 }
 .image-ul__items li {
     display: inline-block;
     margin-right: 50px;
+    padding-left:0;
 }
 .image__item {
+    padding-left: 0;
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -268,42 +276,63 @@ span {
     color: blue;
 }
 /* Images */
-.images {
-    height: 1000px;
+.portfolio__items {
+    position: relative;
 }
-.left-images {
+.portfolio__item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
     width: 50%;
-    float: left;
-    margin-right: 0px;
-    padding-right: 0px;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.left-images img {
-    width: 450px;
+.portfolio-item__overlay {
+ position:absolute;
+ left: 0;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ background:rgba(19,69, 230, 0.9);
+ visibility: hidden;
 }
-.right-images {
-    width: 50%;
-    float: left;
-    margin-right: 0px;
-    padding-right: 0px;
-}
-.right-image img {
-    width: 450px;
-}
-.right-second-images {
+.portfolio-item__image {
     width: 100%;
-    text-align: center;
 }
-.right-second-images img {
-    width: 48%;
-    margin-right: 11px;
+
+.portfolio-2__item {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
-.end-image {
-    width: 100%;
-    height: 450px;
+.portfolio-3__item {
+    position: absolute;
+    right: 0;
+    top: 370px;
+    padding-bottom: 10px;
 }
-.middle-image {
-    height: 300px;
-    width: 100%;
+.portfolio-item__info {
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: white;
+    visibility: hidden;
+}
+.portfolio-item__info a {
+    color: white;
+    text-decoration: none;
+}
+.portfolio__item:hover .portfolio-item__overlay {
+    z-index: 1;
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+}
+.portfolio__item:hover .portfolio-item__info {
+    z-index: 1;
+    visibility: visible;
+    bottom: 24px;
+    left: 60px;
 }
 /* /Images */
 /* /portfolio section */
