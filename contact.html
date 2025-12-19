@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Portfolio</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header section -->
+    <div class="container">
+        <header class="main-header">
+        <div class="main-header__brand">
+            <a href="./contact.html">
+                <img src="./images/image.png" alt="Logo picture">
+            </a>
+        </div>
+        <nav class="main-navigation">
+            <ul class="main-navigation__items">
+                <li class="main-navigation__item main-navigation-first__item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">About</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Pages</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="./contact.html" target="_blank">Contact</a>  
+                </li>
+            </ul>
+        </nav>
+     </header>
+     </div>
+    
+     <!-- /Header section -->
+
+    <!-- Contact section -->
+     <div class="container">
+       <section class="contact-section">
+         <form action="server.php" method="get">
+            <h1>Get in touch</h1>
+             <div class="box-2">
+            <textarea name="message" id="message" placeholder="Enter Message" rows="12" required></textarea>
+           </div>
+           <div class="box-1">
+             <div class="mini-box-1">
+                <input type="text" name="lastname" id="name" placeholder="Enter your name" required>
+             </div>
+             <div class="mini-box-2">
+                 <input type="email" name="email" id="email" placeholder="Enter email address" required>
+             </div>
+           </div>
+           <div class="box-3">
+            <input type="text" name="subject" id="subject" placeholder="Enter Subject" required>
+           </div>
+           <button class="submit-button" type="submit" name="ma'lumot yuborildi">submit</button>
+        </form>
+       </section>
+     </div>
+     <!-- /Contact section -->
+         <!-- Footer section -->
+          <div class="container">
+            <footer>
+                <div class="footer-logo__item">
+                    <a href="./index.html"> <img src="./images/image.png" alt="Logo picture"></a>
+                </div>
+             <nav class="footer-navigation">
+            <ul class="main-navigation__items">
+                <li class="main-navigation__item footer-navigation__item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">About</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Pages</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Concat</a>
+                </li>
+            </ul>
+        </nav>
+        </nav>
+        <div class="footer-icon__bar">
+             <a href="index.html">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+      
+             <a href="index.html">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+       
+             <a href="index.html">
+                <i class="fa-brands fa-skype"></i>
+            </a>
+    
+             <a href="index.html">
+                <i class="fa-brands fa-pinterest"></i>
+            </a>
+        </div>
+          </footer>
+          </div>
+          <!-- /Footer section -->
+</body>
+</html>
