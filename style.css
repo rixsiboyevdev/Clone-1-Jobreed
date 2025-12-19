@@ -23,7 +23,7 @@
 }
 .main-navigation__item {
     display:inline-block;
-    padding: 10px;
+    padding: 0.625rem;
 }
 .main-header__brand {
     display: inline-block;
@@ -37,7 +37,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    font-size:12px;
+    font-size:0.75rem;
 }
 
 .main-navigation__item a:hover{
@@ -51,36 +51,35 @@
     float: left;
     width: 50%;
     text-transform: uppercase;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .hey__item {
     color: #4c2552;
-    font-size:16px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 .who__item {
-    margin-top:10px;
-    margin-bottom: 10px;
-    font-size:60px;
+    margin-top:0.625rem;
+    margin-bottom: 0.625rem;
+    font-size:3.75rem;
     font-weight: 500;
 }
 .work__item {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     font-weight: 500;
-    font-size: 24px;
-    margin-bottom: 0px;
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
 .icon__items a{
     display: inline-block;
    text-decoration: none;
-   padding: 10px;
-   font-size: 20px;
+   padding: 0.625rem;
+   font-size: 1.25rem;
    font-weight: 400;
-   margin:30px 0;
+   margin:1.875rem 0;
    color: rgb(3,169,244);
 }
 .button__item:hover {
@@ -88,8 +87,8 @@
 }
 .button__item {
     text-transform: uppercase;
-    font-size: 14px;
-    line-height: 50px;
+    font-size:0.875rem;
+    line-height: 3.125rem;
     width:200px;
     border-radius: 5px;
     border:none;
@@ -104,7 +103,7 @@
     float: left;
     height: 633px;
     width: 349px;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     text-align: right;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -113,23 +112,23 @@
     clear: both;
 }
 .rating__items {
-    margin-top: 200px;
+    margin-top: 12.5rem;
 }
 .rating__items p{
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   border: none;
   background-color: #f3f3f3;
   text-align: center;
   color: #00bcd4;
-  font-size: 30px;
-  padding: 20px;
+  font-size: 1.875rem;
+  padding: 1.25rem;
   text-transform: none;
   font-weight: 600;
 }
 
 span {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: normal;
 }
 
@@ -141,7 +140,7 @@ span {
 .about-me__item {
     box-sizing: border-box;
     width: 50%;
-    padding-left: 10px;
+    padding-left: 0.625rem;
     float: left;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -152,16 +151,16 @@ span {
     letter-spacing: 2px;
 }
 .about-me__item h3 {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     font-weight: 700;
-    font-size: 42px;
-    margin-bottom: 15px;
+    font-size: 2.625rem;
+    margin-bottom: 0.9375rem;
 }
 .about-me-text {
      color: rgb(136,136,136);
      letter-spacing: 2px;
-     padding-bottom: 20px;
-     padding-top: 20px;
+     padding-bottom: 1.25rem;
+     padding-top: 1.25rem;
 }
 .about-button__item:hover {
     background-image: linear-gradient(to right, rgb(181, 46, 181), rgb(21, 21, 187));
@@ -214,18 +213,18 @@ span {
     color: rgb(136,136,136);
 }
 .service-h3 {
-    font-size: 42px;
+    font-size: 2.625rem;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 .first-card {
     text-align: center;
     background-color: #f8faff;
     width: 30%;
-    padding-top: 80px;
-    padding-bottom: 10px;
+    padding-top: 5rem;
+    padding-bottom: 0.625rem;
     float: left;
-    margin-right:30px;
+    margin-right:1.875rem;
     height: 350px;
 }
  .this-card {
@@ -234,7 +233,7 @@ span {
 .card-p2 {
     text-transform: uppercase;
     text-decoration: underline;
-    padding-top:40px;
+    padding-top:2.5rem;
 }
 .first-card:hover{
     color: white;
@@ -259,9 +258,9 @@ span {
     letter-spacing: 2px;
 }
 .clients-h3 {
-    font-size: 42px;
+    font-size: 2.625rem;
     font-weight: 700;
-    margin-top:10px;
+    margin-top:0.625rem;
 }
 .client-paragraph-text {
     color: rgb(136,136,136);
@@ -280,7 +279,7 @@ span {
 
 /* Portfolio section */
 .portfolio {
-    margin-top:100px;
+    margin-top:6.25rem;
 }
 .image__items li{
     padding-left: 0;
@@ -292,7 +291,7 @@ span {
 }
 .image-ul__items li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 3.125rem;
     padding-left:0;
 }
 .image__item {
@@ -312,7 +311,7 @@ span {
     position: relative;
     cursor: pointer;
     width: 50%;
-    padding: 10px;
+    padding: 0.625rem;
     box-sizing: border-box;
 }
 .portfolio-item__overlay {
@@ -337,11 +336,11 @@ span {
     position: absolute;
     right: 0;
     top: 370px;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 .portfolio-item__info {
     position: absolute;
-    bottom: 44px;
+    bottom:44px;
     left: 80px;
     color: white;
     visibility: hidden;
@@ -367,14 +366,14 @@ span {
 
 /* Blog section  */
 #blog {
-    margin-top: 200px;
+    margin-top: 12.5rem;
 }
 .blog-div__items div {
     width: 33%;
     display: inline-block;
     box-sizing: border-box;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
 }
 
 
@@ -390,9 +389,9 @@ span {
 .blog-div__item .link-tag {
     text-decoration: none;
     color:#05364d;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .learn__item {
@@ -410,7 +409,7 @@ span {
 /* Footer section */
 .footer-logo__item {
     display: block;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     text-align: center;
 }
 .footer-logo__item img{
@@ -427,13 +426,13 @@ span {
 }
 .footer-icon__bar a {
     display: inline-block;
-    font-size: 35px;
+    font-size: 2.1875rem;
     color: rgb(35, 35, 255);
     background-color: white;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(5, 0.2, 0.4, 0.4);
-    margin-left: 50px;
-    margin-bottom: 20px;
+    margin-left: 3.125rem;
+    margin-bottom: 1.25rem;
     border: 1px solid #ccc;
 }
 .footer-icon__bar a:hover {
@@ -450,7 +449,5 @@ span {
     width: 80px;
     border:2px solid rgb(253, 10, 253);
     filter: blur(4px);
-    /* background-color: #fbcee9; */
-    /* background-color: #00bcd4; */
 }
 /* /span container */
