@@ -378,11 +378,6 @@ span {
 }
 
 
-.blog-div__item div {
-    width: 100%;
-    display: block;
-    background-color: #f8faff; 
-}
 .blog-div__item img {
     width: 100%;
 }
@@ -452,7 +447,96 @@ span {
     filter: blur(4px);
 }
 /* /span container */
-
+@media only screen and (max-width:991px) {
+    .container {
+        width: 100%;
+        margin:0 auto;
+    }
+    .main-div-child {
+        padding-left: 40px;
+    }
+    /* Main navigation */
+    .main-div-section {
+        padding: 0;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .main-picture__item img{
+        display: none;
+    }
+    .who__item {
+        font-size: 3.5rem;
+    }
+    /* Statistics section */
+    .rating__items {
+        width: 100%
+    }
+    .rating__items p {
+        float: left;
+        width: 30%;
+        margin-right:3%;
+         font-size: 1.8rem;
+         padding: 0;
+         margin-top:0;
+    }
+  /* About me section */
+  .about-me-section {
+        width: 100%;
+        margin-top: 2px;
+        /* padding:1.5rem 0; */
+    }
+    .about-picture__item {
+        display: none;
+    }
+     .about-me__item {
+        /* border:1px solid black; */
+        width: 100%;
+    }
+    .about-me__item div {
+        /* border:1px solid black; */
+        width: 96%;
+        margin:4%;
+    }
+    /* Services */
+    .services {
+        width: 100%;
+        padding:1.5rem 0;
+        margin-bottom: 20px;
+    }
+    .first-card {
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+     }
+     /* Clients section */
+    .clients {
+        margin-top:0.3125rem;
+        padding:1.5rem 0;
+        width: 100%;
+    }
+    .client-image {
+        float: none;
+        width: 100%;
+        /* margin:0 auto; */
+    }
+    .client-text {
+        width: 100%;
+        /* margin:0 auto; */
+    }
+    /* Blog section */
+    .blog-div__items {
+        width: 100%;
+    }
+    .blog-div__items div {
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        padding:0;
+    }
+}
 
 @media only screen and (max-width:767px) {
     /* Main section */
@@ -469,10 +553,13 @@ span {
     .button__item {
         display: none;
     }
-    .main-div-section {
-        width: 96%;
-        margin:4%;
-        margin-top: 100px;
+    .main-div-child {
+        margin-left:1.5rem;
+    }
+        .main-div-section {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 150px;
         float: none;
         padding-left: 0;
     }
@@ -480,9 +567,7 @@ span {
         font-size: 3rem;
     }
     /* Statistics section */
-    .rating__items {
-        width: 100%
-    }
+    
     .rating__items p {
         padding: 0;
         margin-right: 0;
@@ -492,26 +577,12 @@ span {
         /* margin-right: 4%; */
     }
     /* About me section */
-    .about-me-section {
-        width: 100%;
-        margin-top: 2px;
-        /* padding:1.5rem 0; */
-    }
-    .about-picture__item {
-        display: none;
-    }
-    .about-me__item {
-        /* border:1px solid black; */
-        width: 100%;
-    }
-    .about-me__item div {
-        /* border:1px solid black; */
-        width: 96%;
-        margin:4%;
-    }
+    
+   
     /* Services section */
     .services {
         width: 100%;
+        padding:1.5rem 0;
     }
     .first-card {
         float: none;
@@ -523,21 +594,7 @@ span {
         margin-bottom: 20px;
         padding-right: 0;
     }
-    /* Clients section */
-    .clients {
-        margin-top:0.3125rem;
-        padding:1.5rem 0;
-        width: 100%;
-    }
-    .client-image {
-        float: none;
-        width: 100%;
-        /* margin:0 auto; */
-    }
-    .client-text {
-        width: 100%;
-        /* margin:0 auto; */
-    }
+    
     /* Portfolio section */
     .portfolio {
         width: 100%;
